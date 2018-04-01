@@ -1,0 +1,10 @@
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[user]
+	name = conrellreddick
+	email = cornellreddick@outlook.com
+	email = admin@dev.lawgen.org
+	emal = admin@dev.lawgen.org
